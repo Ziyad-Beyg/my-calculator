@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+<body>
+    <br><br><h1>
+        <center>
+        MY CALCULATOR
+    </center>
+    </h1>
+    <br><br>
+    <center>
+    <div id="calculator-div-my" style=" width: 44%; height: 390px; padding-top: 15px; border-radius: 20px;">
+        
+<table cellspacing="8px" id="calculator-my">
+    <tr >
+        <td colspan="8">
+            <input id="screen-my" type="text">
+        </td>
+        
+    </tr>
+    <tr>
+        <th id="second-btn-my">
+            2nd
+        </th>
+        <td>
+            (
+        </td>
+        <td>
+            )
+        </td>
+        <td>
+            %
+        </td>
+        <td>
+            mc
+        </td>
+        <td>
+            m+
+        </td>
+        <td>
+            m-
+        </td>
+        <td>
+            mr
+        </td>
+    </tr>
+    <tr>
+        <td>
+            1/x
+        </td>
+        <td>
+            x<sup>2</sup>
+        </td>
+        <td>
+            x<sub>3</sub>
+        </td>
+        <td>
+            y<sup>x</sup>
+        </td>
+        <td class="bg-color-my">
+            C
+        </td>
+        <td class="bg-color-my"><i  class="fas css-icons fa-plus"></i>/<i class="fas fa-minus"></i></td>
+        <td class="bg-color-my">
+            <i  class="fas css-icons fa-divide"></i>
+        </td>
+        <td class="bg-color-my" >
+            <i  class="fas css-icons fa-times"></i>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            x!
+        </td>
+        <td>
+            <i  class="fas css-icons fa-square-root-alt"></i>
+        </td>
+        <td>
+            <sup>y</sup><i class="fas css-icons fa-square-root-alt"></i>
+        </td>
+        <td>
+            log
+        </td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td ><i class="fas bg-color-my css-icons fa-minus"></i></td>
+    </tr>
+    <tr>
+        <td>sin<sup>-1</sup></td>
+        <td>cos<sup>-1</sup></td>
+        <td>tan<sup>-1</sup></td>
+        <td>log<sub>2</sub></td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td ><i class="fas bg-color-my css-icons fa-plus"></i></td>
+    </tr>
+    <tr>
+        <td>sinh<sup>-1</sup></td>
+        <td>cosh<sup>-1</sup></td>
+        <td>tanh<sup>-1</sup></td>
+        <td>2<sup>x</sup></td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td id="equalsto-bottom" rowspan="2">=</td>
+    </tr>
+    <tr id="last-row-my">
+        <td>Deg</td>
+        <td ><svg class="pi-img-my" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="23" height="23"
+            viewBox="0 0 172 172"
+            style=" fill:#000000;"><g transform="translate(6.88,6.88) scale(0.92,0.92)"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="none" stroke-linecap="butt" stroke-linejoin="none" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g fill="#000000" stroke="#ffffff" stroke-width="15" stroke-linejoin="round"><path d="M26.46154,62.17428c3.30769,-8.57933 6.61538,-17.1845 11.24099,-25.11779c1.98978,-4.65144 5.29747,-10.59496 43,-10.59496c28.45132,0 52.92308,0 58.22055,0v19.84615h-24.47176c-6.61538,70.77945 -3.97956,72.76923 7.26142,72.76923c7.28726,0 12.58473,-11.24099 12.58473,-17.21033h4.6256c0,32.43088 -14.54868,37.05649 -25.78966,37.05649c-12.58474,0 -20.51803,-9.2512 -20.51803,-23.15385c0,-17.85637 3.97957,-38.3744 7.28726,-69.46154h-23.82572c-6.61538,70.77945 -7.93329,92.61538 -29.76923,92.61538c-5.29747,0 -13.23077,-3.97956 -13.23077,-13.90264c0,-19.84615 23.82572,3.97956 30.44111,-78.71274c0,0 -6.61538,0 -9.92308,0c-8.60517,0 -15.22056,3.30769 -20.51803,13.23077c-1.31791,2.63582 -2.63581,3.97957 -6.61538,2.63582z"></path></g><path d="M0,172v-172h172v172z" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path><g fill="#ffffff" stroke="none" stroke-width="1" stroke-linejoin="miter"><path d="M26.46154,62.17428c3.30769,-8.57933 6.61538,-17.1845 11.24099,-25.11779c1.98978,-4.65144 5.29747,-10.59496 43,-10.59496c28.45132,0 52.92308,0 58.22055,0v19.84615h-24.47176c-6.61538,70.77945 -3.97956,72.76923 7.26142,72.76923c7.28726,0 12.58473,-11.24099 12.58473,-17.21033h4.6256c0,32.43088 -14.54868,37.05649 -25.78966,37.05649c-12.58474,0 -20.51803,-9.2512 -20.51803,-23.15385c0,-17.85637 3.97957,-38.3744 7.28726,-69.46154h-23.82572c-6.61538,70.77945 -7.93329,92.61538 -29.76923,92.61538c-5.29747,0 -13.23077,-3.97956 -13.23077,-13.90264c0,-19.84615 23.82572,3.97956 30.44111,-78.71274c0,0 -6.61538,0 -9.92308,0c-8.60517,0 -15.22056,3.30769 -20.51803,13.23077c-1.31791,2.63582 -2.63581,3.97957 -6.61538,2.63582z"></path></g><path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path></g></g></svg></td>
+        <td>EE</td>
+        <td>Rand</td>
+        <td colspan="2">0</td>
+        <td>.</td>
+            <!-- <td></td>
+            <td></td> -->
+    </tr>
+</table>
+
+    </div>
+</center>
+</body>
+</html>
